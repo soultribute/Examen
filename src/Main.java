@@ -30,6 +30,13 @@ public class Main {
                 val2=sc.nextInt();
                 System.out.println("El area del cono es: "+(val1*val2)*Math.PI);
                 break;
+            case 4:
+                System.out.println("Introduce el radio del cilindro:");
+                val1=sc.nextInt();
+                System.out.println("Introduce la altura del cilindro:");
+                val2=sc.nextInt();
+                System.out.println("El area del cilindro es: "+2*Math.PI*val1*(val1+val2));
+                break;
             default:
                 System.out.println("Introduzca un numero valido");
         }
