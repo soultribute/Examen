@@ -37,6 +37,12 @@ public class Main {
                 val2=sc.nextInt();
                 System.out.println("El area del cilindro es: "+2*Math.PI*val1*(val1+val2));
                 break;
+            case 5:
+                System.out.println("Introduce el volumen de la esfera:");
+                val1=sc.nextInt();
+                System.out.println("El Volumen de la esfera es: "+(4/3)*(Math.PI*Math.pow(val1,3)));
+                break;
+
             default:
                 System.out.println("Introduzca un numero valido");
         }
