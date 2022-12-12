@@ -23,6 +23,13 @@ public class Main {
                 val1=sc.nextInt();
                 System.out.println("El area del circulo es: "+(val1*val1)*Math.PI);
                 break;
+            case 3:
+                System.out.println("Introduce el radio del cono:");
+                val1=sc.nextInt();
+                System.out.println("Introduce la altura de inclinación:");
+                val2=sc.nextInt();
+                System.out.println("El area del cono es: "+(val1*val2)*Math.PI);
+                break;
             default:
                 System.out.println("Introduzca un numero valido");
         }
